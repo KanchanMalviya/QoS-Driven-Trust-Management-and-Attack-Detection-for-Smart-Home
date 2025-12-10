@@ -61,20 +61,13 @@ The system:
 ---
 
 ## Project Structure
-IOT_Trust_Final_Project/
-│
-├── core_trust.py # Main ML pipeline
-├── dashboard.py # Streamlit dashboard
-│
-├── full_pipeline_balanced_output.csv # Output used by dashboard
-│
-├── README.md # GitHub documentation
-├── requirements.txt # Dependencies
-│
-└── images/
-├── system_block_diagram.png
-├── trust_vs_attack.png
-└── rf_performance.png
+IOT_Trust_Final_Project
+- core_trust.py # Main ML pipeline
+- dashboard.py # Streamlit dashboard
+- full_pipeline_balanced_output.csv # Output used by dashboard
+- README.md # GitHub documentation
+- requirements.txt # Dependencies
+
 
 
 ---
@@ -103,7 +96,7 @@ IOT_Trust_Final_Project/
 - seaborn  
 - pyarrow (for parquet dataset)
 
-
+---
 
 ## How to Run the Project
 1. Install all dependencies:
@@ -120,10 +113,10 @@ python core_trust.py
 ```bash
 streamlit run dashboard.py
 ```
-
+---
 ##  License
 For educational and research use only.
-
+---
 ##  Acknowledgements
 CICIoT2022 Dataset
 Streamlit
