@@ -4,8 +4,8 @@ This project implements a trust-enhanced anomaly detection system for smart-home
 The system computes QoS-derived trust scores, generates weak labels using Isolation Forest, and then trains a Random Forest classifier to predict attack probability.
 A full Streamlit dashboard visualizes trust trends, QoS behavior, device-level risk, likely attack type, and normal vs attack traffic patterns—making this system suitable for real-world smart home monitoring.
 
-##Key Features
-📡 ##QoS Feature Extraction
+## Key Features
+📡 ## QoS Feature Extraction
 Delay, jitter, throughput, bandwidth, packet size, frame size
 🔐 **Trust Score Computation**
 Weighted QoS-based behavioral trust with smoothing
