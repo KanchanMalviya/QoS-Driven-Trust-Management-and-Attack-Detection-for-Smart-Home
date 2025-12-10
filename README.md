@@ -1,10 +1,77 @@
 # QoS-Driven-Trust-Management-and-Attack-Detection-for-Smart-Home
-##Overview
+
+## 🧠 Overview
+This project implements a **trust-enhanced anomaly detection system** for smart-home IoT security using the **CICIoT2022 dataset**.
+
+The system:
+- Computes **QoS-derived trust scores**
+- Generates **weak labels using Isolation Forest**
+- Trains a **Random Forest classifier** to predict attack probability
+- Provides a full **Streamlit dashboard** to visualize trust, QoS behavior, device risk, attack types, and real-time smart-home monitoring
+
+---
+
+## ⭐ Key Features
+
+### 📡 QoS Feature Extraction  
+- Delay  
+- Jitter  
+- Throughput  
+- Bandwidth  
+- Packet size  
+- Frame size  
+
+### 🔐 Trust Score Computation  
+- Weighted QoS-based behavioral trust  
+- λ-smoothing to reduce noise  
+
+### 🧪 Weak Labeling (Isolation Forest)  
+- Automatic anomaly detection from raw IoT traffic  
+
+### 🌲 Random Forest ML Model  
+- Baseline: QoS-only features  
+- Enhanced: QoS + Trust Score  
+
+### 🎯 Decision Engine  
+- Grant Access  
+- Monitor  
+- Isolate  
+- Block/Remove  
+
+### 📊 Real-Time Streamlit Dashboard  
+- Trust over time  
+- Attack probability over time  
+- Combined Trust + Attack Probability  
+- Device risk ranking  
+- Likely attack type  
+- QoS correlation heatmaps  
+- Normal vs attack traffic visualization  
+
+### 🔍 End-to-End Smart Home Security Pipeline  
+- Raw traffic loading  
+- QoS metric computation  
+- Trust scoring module  
+- Weak labeling  
+- Balanced training data generation  
+- Random Forest classifier  
+- Attack probability prediction  
+- Decision engine  
+- Real-time visualization dashboard  
+
+---
+
+## 📁 Project Structure
+
+
+
+
+# QoS-Driven-Trust-Management-and-Attack-Detection-for-Smart-Home
+**Overview**
 This project implements a trust-enhanced anomaly detection system for smart-home IoT security using the CICIoT2022 dataset.
 The system computes QoS-derived trust scores, generates weak labels using Isolation Forest, and then trains a Random Forest classifier to predict attack probability.
 A full Streamlit dashboard visualizes trust trends, QoS behavior, device-level risk, likely attack type, and normal vs attack traffic patterns—making this system suitable for real-world smart home monitoring.
 
-## Key Features
+**Key Features**
 📡 ## QoS Feature Extraction
 Delay, jitter, throughput, bandwidth, packet size, frame size
 🔐 **Trust Score Computation**
