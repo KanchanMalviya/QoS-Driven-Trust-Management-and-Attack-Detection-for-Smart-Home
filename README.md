@@ -103,6 +103,18 @@ IOT_Trust_Final_Project/
 - seaborn  
 - pyarrow (for parquet dataset)
 
+## 🚀 How to Run the Project
+
+### 1️⃣ Install all dependencies
+```bash
+pip install -r requirements.txt
+
+python core_trust.py
+
+
+
+
+
 
 ## How to Run the Project
 1. Install all dependencies:
@@ -120,4 +132,8 @@ Generates full_pipeline_balanced_output.csv
 For educational and research use only.
 
 ##  Acknowledgements
+CICIoT2022 Dataset
+Streamlit
+scikit-learn
+Matplotlib / Seaborn
 
