@@ -11,9 +11,9 @@ The system:
 
 ---
 
-## ⭐ Key Features
+## Key Features
 
-### 📡 QoS Feature Extraction  
+### QoS Feature Extraction  
 - Delay  
 - Jitter  
 - Throughput  
@@ -21,24 +21,24 @@ The system:
 - Packet size  
 - Frame size  
 
-### 🔐 Trust Score Computation  
+### Trust Score Computation  
 - Weighted QoS-based behavioral trust  
 - λ-smoothing to reduce noise  
 
-### 🧪 Weak Labeling (Isolation Forest)  
+### Weak Labeling (Isolation Forest)  
 - Automatic anomaly detection from raw IoT traffic  
 
-### 🌲 Random Forest ML Model  
+### Random Forest ML Model  
 - Baseline: QoS-only features  
 - Enhanced: QoS + Trust Score  
 
-### 🎯 Decision Engine  
+### Decision Engine  
 - Grant Access  
 - Monitor  
 - Isolate  
 - Block/Remove  
 
-### 📊 Real-Time Streamlit Dashboard  
+### Real-Time Streamlit Dashboard  
 - Trust over time  
 - Attack probability over time  
 - Combined Trust + Attack Probability  
@@ -47,7 +47,7 @@ The system:
 - QoS correlation heatmaps  
 - Normal vs attack traffic visualization  
 
-### 🔍 End-to-End Smart Home Security Pipeline  
+### End-to-End Smart Home Security Pipeline  
 - Raw traffic loading  
 - QoS metric computation  
 - Trust scoring module  
@@ -60,21 +60,21 @@ The system:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 IOT_Trust_Final_Project/
 │
-├── core_trust.py                      # Main ML pipeline
-├── dashboard.py                       # Streamlit dashboard
+├── core_trust.py # Main ML pipeline
+├── dashboard.py # Streamlit dashboard
 │
-├── full_pipeline_balanced_output.csv  # Output used by dashboard
+├── full_pipeline_balanced_output.csv # Output used by dashboard
 │
-├── README.md                          # GitHub documentation
-├── requirements.txt                   # Dependencies
+├── README.md # GitHub documentation
+├── requirements.txt # Dependencies
 │
-└── images/  
-      ├── system_block_diagram.png
-      ├── trust_vs_attack.png
-      └── rf_performance.png
+└── images/
+├── system_block_diagram.png
+├── trust_vs_attack.png
+└── rf_performance.png
 
 
 ---
@@ -103,30 +103,23 @@ IOT_Trust_Final_Project/
 - seaborn  
 - pyarrow (for parquet dataset)
 
-## 🚀 How to Run the Project
-
-### 1️⃣ Install all dependencies
-```bash
-pip install -r requirements.txt
-```
-
-
-
-
-
 
 
 ## How to Run the Project
 1. Install all dependencies:
 
 ```bash
-pip install -r requirements.txt```
- 
+pip install -r requirements.txt
+``` 
 2. Run the Trust + ML Pipeline
 Generates full_pipeline_balanced_output.csv
-```bash python core_trust.py```
+```bash
+python core_trust.py
+```
 3. Launch the Streamlit Dashboard
-```bash streamlit run dashboard.py```
+```bash
+streamlit run dashboard.py
+```
 
 ##  License
 For educational and research use only.
