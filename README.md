@@ -79,7 +79,7 @@ IOT_Trust_Final_Project/
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component     | Technology                     |
 |---------------|---------------------------------|
@@ -92,7 +92,7 @@ IOT_Trust_Final_Project/
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 - Python 3.9+  
 - pandas  
@@ -103,27 +103,21 @@ IOT_Trust_Final_Project/
 - seaborn  
 - pyarrow (for parquet dataset)
 
-Install all dependencies:
+
+## How to Run the Project
+1. Install all dependencies:
 
 ```bash
-pip install -r requirements.txt
-
-🚀 How to Run the Project
-1️⃣ Run the Trust + ML Pipeline
+pip install -r requirements.txt```
+ 
+2. Run the Trust + ML Pipeline
 Generates full_pipeline_balanced_output.csv
-python core_trust.py
-2️⃣ Launch the Streamlit Dashboard
-streamlit run dashboard.py
-📊 Model Summary
-Baseline Random Forest (QoS only): ~84% accuracy
-Enhanced Random Forest (QoS + Trust): ~98.2% accuracy
-Trust score greatly reduces false positives
-Effective detection of:
-DDoS
-Data manipulation
-On-off attacks
-Sinkhole attacks
-Selective forwarding
-Resource exhaustion
+```bash python core_trust.py```
+3. Launch the Streamlit Dashboard
+```bash streamlit run dashboard.py```
 
+##  License
+For educational and research use only.
+
+##  Acknowledgements
 
