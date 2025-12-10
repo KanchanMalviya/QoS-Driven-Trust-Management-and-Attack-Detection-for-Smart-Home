@@ -62,11 +62,11 @@ The system:
 
 ## Project Structure
 IOT_Trust_Final_Project
-- core_trust.py # Main ML pipeline
-- dashboard.py # Streamlit dashboard
-- full_pipeline_balanced_output.csv # Output used by dashboard
-- README.md # GitHub documentation
-- requirements.txt # Dependencies
+- core_trust.py 
+- dashboard.py 
+- full_pipeline_balanced_output.csv
+- README.md
+- requirements.txt
 
 
 
@@ -114,9 +114,8 @@ python core_trust.py
 streamlit run dashboard.py
 ```
 ---
-##  License
-For educational and research use only.
----
+
+
 ##  Acknowledgements
 CICIoT2022 Dataset
 Streamlit
