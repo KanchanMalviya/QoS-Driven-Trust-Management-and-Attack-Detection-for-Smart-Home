@@ -108,8 +108,8 @@ IOT_Trust_Final_Project/
 ### 1️⃣ Install all dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-python core_trust.py
 
 
 
